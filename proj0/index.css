@@ -47,20 +47,27 @@ main {
 }
 #contact {
   display: flex;
-  flex-direction: column;
+  width: fit-content;
   align-items: flex-start;
   align-self: center;
-  width: 50%;
+  justify-content: center;
+  margin:0;
 }
 .icon {
   width: 5vh;
   height: 5vh;
-  margin-right:1vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
 a {
+  margin-top: 5vh;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-items: center;
   align-items: center;
-  text-decoration: none;
+}
+
+section {
+  margin-right: 5vh;
 }
