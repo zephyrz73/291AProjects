@@ -52,6 +52,7 @@ main {
   align-self: center;
   justify-content: center;
   margin:0;
+  margin-bottom: 3vh;
 }
 .icon {
   width: 5vh;
@@ -59,13 +60,22 @@ main {
   margin-left: 2vh;
   margin-right: 2vh;
 }
-a {
+#contact > a {
   margin-top: 5vh;
   color: white;
   display: flex;
-  flex-direction: column;
   justify-items: center;
   align-items: center;
+}
+.nav > a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav {
+  margin: 0;
+  font-size: 2.5vh;
 }
 
 section {
